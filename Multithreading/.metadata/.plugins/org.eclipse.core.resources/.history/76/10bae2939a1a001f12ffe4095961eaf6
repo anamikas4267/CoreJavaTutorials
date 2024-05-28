@@ -1,0 +1,21 @@
+package com.anamika.demo;
+
+public class SharedResource {
+	
+	boolean isItemPresent = false;
+	
+	public synchronized void addItem() {
+		isItemPresent = true;
+	}
+	
+	public synchronized void consumeItem() {
+		
+		if(!isItemPresent) {
+			try {
+			wait();
+			}catch(Exception e) {}
+		}
+		isItemPresent = false;
+	}
+
+}

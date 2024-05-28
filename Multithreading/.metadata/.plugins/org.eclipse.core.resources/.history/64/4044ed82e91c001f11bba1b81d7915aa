@@ -1,0 +1,11 @@
+package com.anamika.demo;
+
+public class ConsumerTask implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

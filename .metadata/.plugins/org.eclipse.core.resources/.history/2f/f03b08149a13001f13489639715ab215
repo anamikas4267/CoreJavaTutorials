@@ -1,0 +1,15 @@
+package com.anamika.classobjexample;
+
+public class TestStudent {
+
+	public static void main(String[] args) {
+		
+		Student student = new Student(7,"Anamika");
+		
+		System.out.println(student.getId());
+		
+		System.out.println(student.getName());
+
+	}
+
+}

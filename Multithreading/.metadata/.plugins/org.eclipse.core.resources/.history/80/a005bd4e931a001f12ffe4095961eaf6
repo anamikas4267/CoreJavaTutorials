@@ -1,0 +1,11 @@
+package com.anamika.demo;
+
+public class MonitorLearning {
+	
+	public synchronized void task1() {
+		try {
+			System.out.println("Task 1 started running");
+		}
+	}
+
+}

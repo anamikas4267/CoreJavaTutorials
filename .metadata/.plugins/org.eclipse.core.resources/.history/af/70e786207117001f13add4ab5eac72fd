@@ -1,0 +1,59 @@
+package com.anamika.classobjexample;
+
+import java.sql.Array;
+import java.util.Arrays;
+import java.util.List;
+
+public class TestStudent {
+
+	public static void main(String[] args) {
+		
+		String a = "Hello";
+		String b = "Hello";
+		System.out.println(a==b); //true
+		System.out.println(a.equals(b)); //true
+		 
+		StringBuilder c = new StringBuilder("Hello"); 
+		StringBuilder d = new StringBuilder("Hello");
+		System.out.println(c==d); //false
+		System.out.println(c.equals(d)); //true
+		 
+		String e = new String("Hello");
+		String f = new String("Hello");
+		System.out.println(e==f); //false
+		System.out.println(e.equals(f)); //true
+		
+		String str = "JAVA : Code : KPMG : Test : India : Mumbai : Pune : Banglore : USA : China";
+		
+		String[] output = str.split(":");
+		List<String> list = Arrays.asList(output);
+
+//		list = list.stream().filter(s -> (s.length()==4)).map(s->s.toLowerCase()).sort()
+				//sort();
+		 
+		int arr[]= { 2,0,3,4,0,5,0,6 };
+//		O/P :- 2,3,4,5,6,0,0,0
+
+
+		int i = arr.length-1;
+		int j = 0;
+
+		for(int ele: arr){
+			if(ele!=0){
+				arr[j]=ele;
+				j++;
+			}
+		}
+
+		for(int t=j;t<arr.length;t++){
+			arr[t]=0;
+		}
+		
+		for(int k=0;k<arr.length;k++) {
+			System.out.print(arr[k]+",");
+		}
+		
+
+	}
+
+}

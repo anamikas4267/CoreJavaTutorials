@@ -1,0 +1,11 @@
+package com.anamika.demo;
+
+public class MonitorLocksDemo implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.anamika.demo;
+
+public class SharedResource {
+	
+	boolean isItemAvailable = false;
+	
+	public synchronized void produceItem() {
+		System.out.println("Thread "+ Thread.currentThread().getName() + " is running..");
+		isItemAvailable = true;
+		notifyAll();
+	}
+
+}

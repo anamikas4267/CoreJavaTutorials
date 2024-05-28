@@ -1,0 +1,15 @@
+package com.anamika.demo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		MonitorLearning monitorLearning = new MonitorLearning();
+		
+		MonitorLocksDemo runnableObj = new MonitorLocksDemo(monitorLearning);
+		
+		Thread t1 = new Thread();
+
+	}
+
+}
