@@ -6,25 +6,34 @@ public class Main {
 		
 		SharedResource sharedResource = new SharedResource();
 		
-		System.out.println("Main thread started");
-		
 		Thread t1 = new Thread(()-> {
 			System.out.println("t1 is calling produce method");
 			sharedResource.produce();
 		});
 		
+		Thread t2 = new Thread(()-> {
+			System.out.println("t2 is calling produce method");
+			try {
+				Thread.sleep(1000);
+			} catch (Exception e) {
+			}
+			sharedResource.produce();
+		});
+		
 		t1.start();
+		t2.start();
 		
 		try {
-			System.out.println("Main thread waiting for thread t1 to finish");
-			t1.join();
+			Thread.sleep(3000);
 		} catch (Exception e) {
 			
 		}
 		
+		t1.suspend();
+		
 		System.out.println("Main thread finished");
 		
-		
+		t1.resume();
 	}
 
 }

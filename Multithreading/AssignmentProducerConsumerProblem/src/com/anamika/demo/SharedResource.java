@@ -9,8 +9,8 @@ public class SharedResource {
 	private int bufferSize;
 	
 	public SharedResource(int size) {
-		this.sharedBuffer = new LinkedList<>();
-		this.bufferSize = size;
+		sharedBuffer = new LinkedList<>();
+		bufferSize = size;
 	}
 	
 	public synchronized void produceItem(int item) {
