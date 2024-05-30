@@ -5,6 +5,9 @@
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReadWriteLock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantReadWriteLock"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.anamika.demo.SharedResource"/>
 </qualifiedTypeNameHistroy>
