@@ -17,7 +17,7 @@ public class Main {
 		SharedResource resource2 = new SharedResource();
 		
 		Thread t2= new Thread(()->{
-			resource1.produce(lock);
+			resource2.produce(lock);
 		});
 				
 		t1.start();
