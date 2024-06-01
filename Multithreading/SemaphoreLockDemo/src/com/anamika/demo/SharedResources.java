@@ -3,7 +3,7 @@ package com.anamika.demo;
 import java.util.concurrent.Semaphore;
 
 public class SharedResources {
-	
+	 
 	boolean isAvailable = false;
 	
 	public void produce(Semaphore lock) {
