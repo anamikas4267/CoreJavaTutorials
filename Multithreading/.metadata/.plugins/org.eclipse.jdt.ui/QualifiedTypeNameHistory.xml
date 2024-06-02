@@ -3,11 +3,16 @@
     <fullyQualifiedTypeName name="com.anamika.demo.MonitorLearning"/>
     <fullyQualifiedTypeName name="com.anamika.demo.MonitorLocksDemo"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReadWriteLock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantReadWriteLock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.StampedLock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReadWriteLock"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantReadWriteLock"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.Condition"/>
+    <fullyQualifiedTypeName name="com.anamika.demo.SharedResources"/>
     <fullyQualifiedTypeName name="com.anamika.demo.SharedResource"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
 </qualifiedTypeNameHistroy>
